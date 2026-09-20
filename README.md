@@ -101,19 +101,15 @@ Users can switch between:
 
 The selected theme is saved using LocalStorage.
 
----
-
 ## 📷 Screenshots
 
 ### Student Form
 
-![Student Form](https://raw.githubusercontent.com/sharathjakki1316/Web_Development_CRUD/main/screenshots/student-form.png)
+![Student Form](./screenshots/student-form.png)
 
 ### Student Records
 
-![Student Records](https://raw.githubusercontent.com/sharathjakki1316/Web_Development_CRUD/main/screenshots/student-records.png)
-
----
+![Student Records](./screenshots/student-records.png)
 
 ## 📁 Project Structure
 
