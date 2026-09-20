@@ -101,15 +101,19 @@ Users can switch between:
 
 The selected theme is saved using LocalStorage.
 
+---
+
 ## 📷 Screenshots
 
 ### Student Form
 
-![Student Form](./screenshots/student-form.png)
+![Student Form](https://raw.githubusercontent.com/sharathjakki1316/Web_Development_CRUD/main/screenshots/student-form.png)
 
 ### Student Records
 
-![Student Records](./screenshots/student-records.png)
+![Student Records](https://raw.githubusercontent.com/sharathjakki1316/Web_Development_CRUD/main/screenshots/student-records.png)
+
+---
 
 ## 📁 Project Structure
 
@@ -119,6 +123,7 @@ Student Management System/
 ├── index.html
 ├── style.css
 ├── script.js
+├── README.md
 │
 └── screenshots/
     ├── student-form.png
@@ -129,7 +134,7 @@ Student Management System/
 
 ## 🚀 How to Run
 
-1. Download or clone this repository.
+1. Clone or download this repository.
 2. Open the project folder.
 3. Open `index.html` in a web browser.
 4. Start adding and managing student records.
