@@ -1,0 +1,320 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* Main container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* Section headings */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form section */
+.form-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+/* Form layout */
+#studentForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+
+/* Form group */
+.form-group {
+    margin-bottom: 0;
+}
+
+
+/* Add Student button */
+#submitButton {
+    grid-column: 1 / -1;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Labels */
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Input fields */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Input focus */
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Add Student button */
+#submitButton {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover */
+#submitButton:hover {
+    background-color: #0056b3;
+}
+
+/* Table section */
+.table-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Table header and cells */
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table header */
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Table row hover */
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Action buttons */
+.edit-btn,
+.delete-btn {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+}
+
+/* Edit button */
+.edit-btn {
+    background-color: #28a745;
+}
+
+/* Edit hover */
+.edit-btn:hover {
+    background-color: #1e7e34;
+}
+
+/* Delete button */
+.delete-btn {
+    background-color: #dc3545;
+}
+
+/* Delete hover */
+.delete-btn:hover {
+    background-color: #b02a37;
+}
+
+/* Mobile responsive design */
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .form-section,
+    .table-section {
+        padding: 15px;
+    }
+    #studentForm {
+        grid-template-columns: 1fr;
+    }
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+/* Search section */
+.search-section {
+    margin-bottom: 20px;
+}
+
+/* Search input */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Course filter */
+#courseFilter {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+}
+
+#courseFilter:focus {
+    outline: none;
+    border-color: #007bff;
+}
+/* Search input focus */
+#searchInput:focus {
+    outline: none;
+    border-color: #007bff;
+}
+/* Student count */
+.student-count {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+#studentCount {
+    color: #007bff;
+}
+/* Clear all button */
+#clearAllButton {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Clear all button hover */
+#clearAllButton:hover {
+    background-color: #b02a37;
+}
+/* No data message */
+.no-data {
+    text-align: center;
+    padding: 25px;
+    color: #777;
+    font-style: italic;
+}
+/* Theme button */
+#themeButton {
+    display: block;
+    margin: 0 auto 25px auto;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#themeButton:hover {
+    background-color: #444;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: #f1f1f1;
+}
+
+body.dark-mode .form-section,
+body.dark-mode .table-section {
+    background-color: #2b2b2b;
+}
+
+body.dark-mode .form-group label {
+    color: #f1f1f1;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode #searchInput,
+body.dark-mode #courseFilter {
+    background-color: #3a3a3a;
+    color: white;
+    border-color: #666;
+}
+
+body.dark-mode tbody tr:hover {
+    background-color: #3a3a3a;
+}
+
+body.dark-mode td {
+    color: #f1f1f1;
+}
+
+body.dark-mode .student-count {
+    color: #ddd;
+}
